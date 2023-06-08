@@ -18,7 +18,8 @@ machine-learning-journey-of-burberry-is-there-room
  -for-machine-learning-in-luxury-goods-industry/
 
 Surface level but interesting look at the brand Burberry, 
-has good key points to stem from
+has good key points to stem from and can be an interesting example of other
+ways that ai has been used in retail rather than groceries and such!
 
 https://www.forbes.com/sites/bernardmarr/2017/09
 /25/the-amazing-ways-burberry-is-using-artificial
