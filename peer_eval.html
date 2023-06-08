@@ -7,85 +7,40 @@
 
 <style>
 	body {
-		background-color:#d9b38c
+		background-color: #d9b38c;
+		margin: 0; /* Removes default body margin */
 	}
 
 	ul {
 		list-style-type: none;
-  		margin: 0;
- 	 	padding: 0;
-  		width: 100%;
-  		background-color: #ae7237;
-  		overflow: hidden; 
-  		position: -webkit-sticky; /* Safari */
-  		position: sticky;
-  		top: 0;
-	}
-
-	li a {
-		display: block;
-  		color: #ffffff;
-  		padding: 12px;
+		margin: 0;
+		padding: 0;
 		width: 100%;
-  		text-decoration: none;
-	}	
+		background-color: #ae7237;
+		overflow: hidden;
+		position: sticky;
+		top: 0;
+	}
 
-	a:link{
+	li { 
+		float: left;
+	}
+
+	li a { /* for nav bar */
+		display: block;
 		color: #ffffff;
-		text-style: bold;
+		padding: 12px;
+		text-decoration: none;
+		  
 	}
 
-	a:visted{
-		width: 250px;
-		color: #ffffff;
-		text-style: bold;
-	}
-
-	a:hover{
-		color: #ffffff;
-		width: 50%;
-		text-style: bold;
-	}
-
-	a:active{
-		width: 300px;
-		color: light-blue;
-		text-style: bold;
-	}
-
-	li a:hover {
-		width: 100px;
+	li a:hover { /* for nav bar */
 		background-color: #e1aa73;
 		color: white;
 	}
 
-	li {
-		float: left;
-	}
-
-/* .collapsible {
-	background-color: #f0cfaf;
-	color: white;
-	cursor: pointer;
-	padding: 18px;
-	width: 700px;
-	border: none;
-	text-align: center;
-	outline: none;
-	font-size: 15px;
-	}
-
-.active, .collapsible:hover {
-	background-color: #ffa64d;
-	}
-*/
-
-.content {
-	padding: 0px 18px;
-	width: 664px;
-	display: none;
-	overflow: hidden;
-	background-color: #f5dec4;
+	h1, p {
+		margin: 20px; /* Provides spacing between elements */
 	}
 
 </style>
