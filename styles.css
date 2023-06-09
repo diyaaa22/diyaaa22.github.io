@@ -52,7 +52,7 @@ h1, p {
 }
 .content {
 	padding: 0 18px;
-	width: 100%;
+	width: fit-collapsible; /* Matches width of content with collapsible */
 	display: none;
 	overflow: hidden;
 	background-color: #989E8B;
